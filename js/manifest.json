@@ -1,0 +1,21 @@
+{
+  "short_name": "CM",
+  "name": "Caio Molinaro",
+  "icons": [
+    {
+      "src": "images/cm192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/logom.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/layout1/index.html",
+  "background_color": "#47476b",
+  "display": "standalone",
+  "scope": "/index/",
+  "theme_color": "#47476b"
+}

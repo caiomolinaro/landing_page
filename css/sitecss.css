@@ -1,0 +1,240 @@
+/* CSS BY: CAIO MOLINARO
+LAYOUT SIMPLES ONE PAGE USANDO HTML, CSS E JAVASCRIPT PURO;
+TAMANHOS DAS IMAGENS:
+LOGO NORMAL: 317x50px (PODE SER ENTRE 315 A 320);
+LOGO PARA MOBILE: px;
+FOTO: 250x250px;
+IMAGENS DE PROJETO/EXEMPLO: 300x300px.
+10/07/2019 */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*DIVS*/
+
+#topo{
+    background-color:  #47476b;
+    height: 70px;
+}
+
+#sobre{
+  background-color: #666699;
+  height: 500px;
+}
+
+#projetos{
+  background-color: #7575a3;
+  height: 500px;
+}
+
+#contato{
+  background-color: #8585ad;
+  height: 200px;
+}
+
+/*IMAGENS*/
+
+.logo{
+  margin-top: 10px;
+  text-align: right;
+}
+
+.foto{
+  width: 150px;
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.foto:hover{
+  width: 220px;
+
+}
+
+.exp{
+  width: 200px;
+  margin-top: 70px;
+  margin-left: 30px;
+}
+
+.exp:hover{
+  width: 250px;
+}
+
+.exp1{
+  text-align: center;
+}
+
+
+/*TEXTO*/
+
+.titulo{
+  margin-top: 70px;
+  text-align: center;
+  color:white;
+}
+
+.titulo1{
+  text-align: center;
+  color:white;
+}
+
+.par{
+  color: white;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.parc{
+  color: white;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+.l{
+  color: white;
+  font-size: 14px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+.par:hover{
+    font-size: 20px;
+}
+
+.parc:hover{
+  font-size: 20px;
+}
+
+.titulo:hover{
+  font-size: 20px;
+}
+
+.titulo1:hover{
+  font-size: 20px;
+}
+
+/*MENU*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  #47476b;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-size: 16px;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 20px;
+
+}
+
+li a:hover {
+  background-color: #666699;
+  font-size: 20px;
+}
+
+/*MEDIA QUERY*/
+
+/*640px*/
+@media screen and (max-width: 640px) {
+
+  .logo{
+    visibility: hidden;
+  }
+
+  li a {
+    margin-top: 15px;
+    margin-left: 0px;
+  
+  }
+
+  .par{
+    font-size: 13px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .par:hover{
+    font-size: 13px;
+  }
+
+  .foto{
+    margin-top:5px;
+    width: 150px;
+  }
+  
+  .foto:hover{
+    width: 170px;
+  
+  }
+
+  .exp{
+    width: 95px;
+    margin-top: 70px;
+    margin-left: auto;
+    }
+  
+  .exp:hover{
+    width: 95px;
+  }
+  
+  #contato{
+    height:350px;
+  }
+
+  .parc{
+    margin-top: 30px;
+    font-size:13px;
+  }
+
+  .parc:hover{
+    font-size: 13px;
+  }
+}
+
+/*568px*/
+@media screen and (max-width: 568px) {
+
+  .logo{
+    visibility: hidden;
+  }
+
+  .foto{
+    margin-top:5px;
+    width: 125px;
+  }
+  
+  .foto:hover{
+    width: 150px;
+  
+  }
+}
+
+
+
+
